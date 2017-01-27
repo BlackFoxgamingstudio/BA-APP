@@ -1,0 +1,1678 @@
+
+Private Sub CapGemini_CA_Click()
+
+End Sub
+
+Private Sub ComboBox1_Change()
+
+End Sub
+
+Private Sub ComboBox17_Change()
+
+End Sub
+
+Private Sub ComboBox18_Change()
+
+End Sub
+
+Private Sub ComboBox19_Change()
+
+End Sub
+
+Private Sub ComboBox2_Change()
+
+End Sub
+
+Private Sub ComboBox20_Change()
+
+End Sub
+
+Private Sub ComboBox21_Change()
+
+End Sub
+
+Private Sub ComboBox22_Change()
+
+End Sub
+
+Private Sub ComboBox23_Change()
+
+End Sub
+
+Private Sub ComboBox24_Change()
+
+End Sub
+
+Private Sub ComboBox25_Change()
+
+End Sub
+
+Private Sub ComboBox26_Change()
+
+End Sub
+
+Private Sub ComboBox27_Change()
+
+End Sub
+
+Private Sub ComboBox28_Change()
+
+End Sub
+
+Private Sub ComboBox3_Change()
+
+End Sub
+
+Private Sub ComboBox30_Change()
+
+End Sub
+
+Private Sub ComboBox4_Change()
+
+End Sub
+
+Private Sub ComboBox9_Change()
+
+End Sub
+
+Private Sub ComboBox40_Change()
+
+End Sub
+
+Private Sub ComboBox41_Change()
+
+End Sub
+
+Private Sub ComboBox42_Change()
+
+End Sub
+
+Private Sub ComboBox43_Change()
+
+End Sub
+
+Private Sub ComboBox44_Change()
+End Sub
+
+Private Sub ComboBox45_Change()
+
+End Sub
+
+Private Sub ComboBox48_Change()
+
+End Sub
+
+Private Sub ComboBox49_Change()
+
+End Sub
+
+Private Sub ComboBox50_Change()
+
+End Sub
+
+Private Sub ComboBox51_Change()
+
+End Sub
+
+Private Sub ComboBox52_Change()
+
+End Sub
+
+Private Sub CommandButton1_Click()
+Dim lrCD As Long, lrPD As Long, lrS As Long
+lrCD = Sheets("Interview Q&A").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Interview Q&A").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "B").Value = TextBox2.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "C").Value = ComboBox44.Value
+Sheets("Interview Q&A").Cells(lrCD + 1, "D").Value = TextBox26.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "E").Value = TextBox27.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "F").Value = TextBox18.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "G").Value = TextBox19.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "H").Value = TextBox21.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "I").Value = TextBox20.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "J").Value = TextBox23.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "K").Value = TextBox22.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "L").Value = TextBox24.Text
+Sheets("Interview Q&A").Cells(lrCD + 1, "M").Value = TextBox25.Text
+
+
+lrCD = Sheets("Busieness Stratagy").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "B").Value = TextBox2.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "E").Value = TextBox3.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "F").Value = TextBox4.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "F").Columns.AutoFit
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "C").Value = ComboBox43.Value
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "D").Value = TextBox16.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "G").Value = TextBox17.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "H").Value = TextBox3.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "I").Value = TextBox4.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "J").Value = TextBox10.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "K").Value = TextBox9.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "L").Value = TextBox12.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "M").Value = TextBox11.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "N").Value = TextBox14.Text
+Sheets("Busieness Stratagy").Cells(lrCD + 1, "O").Value = TextBox15.Text
+
+lrPD = Sheets("Stockholder's").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Stockholder's").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "B").Value = TextBox2.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "C").Value = TextBox26.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "D").Value = TextBox27.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "E").Value = TextBox18.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "F").Value = TextBox19.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "G").Value = TextBox21.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "H").Value = TextBox20.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "I").Value = TextBox23.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "J").Value = TextBox22.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "K").Value = TextBox24.Text
+Sheets("Stockholder's").Cells(lrCD + 1, "L").Value = TextBox25.Text
+
+
+lrS = Sheets("Datacenter Infestructure infoP1").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "B").Value = TextBox2.Text
+
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "C").Value = ComboBox1.Value
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "E").Value = TextBox33.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "F").Value = TextBox221.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "G").Value = TextBox219.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "H").Value = TextBox212.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "I").Value = TextBox216.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "J").Value = TextBox217.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "K").Value = TextBox220.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "L").Value = TextBox218.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "M").Value = TextBox215.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "N").Value = TextBox213.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "O").Value = TextBox214.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "P").Value = TextBox29.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "Q").Value = TextBox28.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "R").Value = TextBox31.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "S").Value = TextBox32.Text
+
+
+lrS = Sheets("Dev").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Dev").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Dev").Cells(lrCD + 1, "B").Value = TextBox2.Text
+
+Sheets("Dev").Cells(lrCD + 1, "F").Value = ComboBox21.Value
+Sheets("Dev").Cells(lrCD + 1, "G").Value = TextBox181.Text
+Sheets("Dev").Cells(lrCD + 1, "H").Value = TextBox187.Text
+Sheets("Dev").Cells(lrCD + 1, "I").Value = TextBox183.Text
+Sheets("Dev").Cells(lrCD + 1, "J").Value = TextBox182.Text
+Sheets("Dev").Cells(lrCD + 1, "K").Value = TextBox185.Text
+Sheets("Dev").Cells(lrCD + 1, "L").Value = TextBox186.Text
+Sheets("Dev").Cells(lrCD + 1, "M").Value = TextBox184.Text
+
+lrS = Sheets("Test").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Test").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Test").Cells(lrCD + 1, "B").Value = TextBox2.Text
+
+Sheets("Test").Cells(lrCD + 1, "F").Value = ComboBox21.Value
+Sheets("Test").Cells(lrCD + 1, "G").Value = TextBox181.Text
+Sheets("Test").Cells(lrCD + 1, "H").Value = TextBox187.Text
+Sheets("Test").Cells(lrCD + 1, "I").Value = TextBox183.Text
+Sheets("Test").Cells(lrCD + 1, "J").Value = TextBox182.Text
+Sheets("Test").Cells(lrCD + 1, "K").Value = TextBox185.Text
+Sheets("Test").Cells(lrCD + 1, "L").Value = TextBox186.Text
+Sheets("Test").Cells(lrCD + 1, "M").Value = TextBox184.Text
+
+lrCD = Sheets("Technical Assessment").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Technical Assessment").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "B").Value = TextBox2.Text
+The_range = RefEdit1.Value
+
+Sheets("Technical Assessment").Cells(lrCD + 1, "C").Value = RefEdit1.Value
+Sheets("Technical Assessment").Cells(lrCD + 1, "D").Value = ComboBox45.Value
+Sheets("Technical Assessment").Cells(lrCD + 1, "E").Value = TextBox27.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "F").Value = TextBox18.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "G").Value = TextBox19.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "H").Value = TextBox21.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "I").Value = TextBox20.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "J").Value = TextBox23.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "K").Value = TextBox22.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "L").Value = TextBox24.Text
+Sheets("Technical Assessment").Cells(lrCD + 1, "M").Value = TextBox25.Text
+
+lrCD = Sheets("Application Discovery").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("Application Discovery").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "B").Value = TextBox2.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "C").Value = ComboBox42.Value
+Sheets("Application Discovery").Cells(lrCD + 1, "D").Value = ComboBox41.Value
+Sheets("Application Discovery").Cells(lrCD + 1, "E").Value = TextBox210.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "F").Value = TextBox211.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "G").Value = TextBox202.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "H").Value = TextBox203.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "I").Value = TextBox205.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "J").Value = TextBox204.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "K").Value = TextBox207.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "L").Value = TextBox206.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "M").Value = TextBox208.Text
+Sheets("Application Discovery").Cells(lrCD + 1, "N").Value = TextBox209.Text
+
+lrCD = Sheets("retain").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("retain").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("retain").Cells(lrCD + 1, "B").Value = TextBox2.Text
+
+Sheets("retain").Cells(lrCD + 1, "C").Value = ComboBox49.Value
+Sheets("retain").Cells(lrCD + 1, "D").Value = ComboBox51.Value
+Sheets("retain").Cells(lrCD + 1, "E").Value = TextBox240.Text
+Sheets("retain").Cells(lrCD + 1, "F").Value = TextBox241.Text
+Sheets("retain").Cells(lrCD + 1, "G").Value = TextBox232.Text
+Sheets("retain").Cells(lrCD + 1, "H").Value = TextBox233.Text
+Sheets("retain").Cells(lrCD + 1, "I").Value = TextBox235Text
+Sheets("retain").Cells(lrCD + 1, "K").Value = TextBox234.Text
+Sheets("retain").Cells(lrCD + 1, "L").Value = TextBox237.Text
+Sheets("retain").Cells(lrCD + 1, "M").Value = TextBox236.Text
+Sheets("retain").Cells(lrCD + 1, "N").Value = TextBox238.Text
+Sheets("retain").Cells(lrCD + 1, "J").Value = TextBox239.Text
+Sheets("retain").Cells(lrCD + 1, "K").Value = TextBox252.Text
+
+lrS = Sheets("retire").Range("A" & Rows.Count).End(xlUp).Row
+Sheets("retire").Cells(lrCD + 1, "A").Value = TextBox1.Text
+Sheets("retire").Cells(lrCD + 1, "B").Value = TextBox2.Text
+
+Sheets("retire").Cells(lrCD + 1, "C").Value = TextBox261.Text
+Sheets("retire").Cells(lrCD + 1, "D").Value = TextBox262.Text
+Sheets("retire").Cells(lrCD + 1, "E").Value = TextBox253.Text
+Sheets("retire").Cells(lrCD + 1, "F").Value = TextBox254.Text
+Sheets("retire").Cells(lrCD + 1, "G").Value = TextBox256.Text
+Sheets("retire").Cells(lrCD + 1, "H").Value = TextBox255.Text
+Sheets("retire").Cells(lrCD + 1, "I").Value = TextBox258.Text
+
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "C").Value = ComboBox1.Value
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "C").Value = ComboBox1.Value
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "C").Value = ComboBox1.Value
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "C").Value = ComboBox1.Value
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "C").Value = ComboBox1.Value
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+Sheets("Datacenter Infestructure infoP1").Cells(lrCD + 1, "D").Value = TextBox8.Text
+End Sub
+
+Private Sub Label1_Click()
+
+End Sub
+
+Private Sub Frame1_Click()
+
+End Sub
+
+Private Sub CommandButton2_Click()
+Call getshapedata
+End Sub
+
+Private Sub CommandButton3_Click()
+Call writedata
+End Sub
+
+Private Sub CommandButton300_Click()
+Call XMLHTTP
+End Sub
+
+Private Sub CommandButton301_Click()
+
+End Sub
+
+Private Sub CommandButton302_Click()
+Dim WordApp As Object
+'open Word
+Set WordApp = CreateObject("Word.Application")
+WordApp.Visible = True
+'open merger template
+WordApp.Documents.Open "C:\Users\The Great Idea\Desktop\cloud_devops_cloud_migration_requirements_template.docm"
+'run merger macro
+WordApp.Run "TempDoc"
+
+
+End Sub
+
+Private Sub Label101_Click()
+
+End Sub
+
+Private Sub Label103_Click()
+
+End Sub
+
+Private Sub Label104_Click()
+
+End Sub
+
+Private Sub Label105_Click()
+
+End Sub
+
+Private Sub Label106_Click()
+
+End Sub
+
+Private Sub Label107_Click()
+
+End Sub
+
+Private Sub Label108_Click()
+
+End Sub
+
+Private Sub Label110_Click()
+
+End Sub
+
+Private Sub Label12_Click()
+
+End Sub
+
+Private Sub Label122_Click()
+
+End Sub
+
+Private Sub Label123_Click()
+
+End Sub
+
+Private Sub Label126_Click()
+
+End Sub
+
+Private Sub Label127_Click()
+
+End Sub
+
+Private Sub Label129_Click()
+
+End Sub
+
+Private Sub Label133_Click()
+
+End Sub
+
+Private Sub Label135_Click()
+
+End Sub
+
+Private Sub Label136_Click()
+
+End Sub
+
+Private Sub Label137_Click()
+
+End Sub
+
+Private Sub Label140_Click()
+
+End Sub
+
+Private Sub Label144_Click()
+
+End Sub
+
+Private Sub Label19_Click()
+
+End Sub
+
+Private Sub Label20_Click()
+
+End Sub
+
+Private Sub Label27_Click()
+
+End Sub
+
+Private Sub Label29_Click()
+
+End Sub
+
+Private Sub Label33_Click()
+
+End Sub
+
+Private Sub Label39_Click()
+
+End Sub
+
+Private Sub Label4_Click()
+
+End Sub
+
+Private Sub Label5_Click()
+
+End Sub
+
+Private Sub Label64_Click()
+
+End Sub
+
+
+
+Private Sub Label77_Click()
+
+End Sub
+
+Private Sub Label84_Click()
+
+End Sub
+
+Private Sub Label88_Click()
+
+End Sub
+
+Private Sub MultiPage1_Change()
+
+End Sub
+
+Private Sub RefEdit1_Change()
+End Sub
+
+Private Sub SendServey_Click()
+Call SendMail
+End Sub
+
+Private Sub TextBox1_Change()
+
+End Sub
+
+Private Sub TextBox10_Change()
+
+End Sub
+
+Private Sub TextBox11_Change()
+
+End Sub
+
+Private Sub TextBox12_Change()
+
+End Sub
+
+Private Sub TextBox14_Change()
+
+End Sub
+
+Private Sub TextBox15_Change()
+
+End Sub
+
+Private Sub TextBox16_Change()
+
+End Sub
+
+Private Sub TextBox17_Change()
+
+End Sub
+
+Private Sub TextBox18_Change()
+
+End Sub
+
+Private Sub TextBox181_Change()
+
+End Sub
+
+Private Sub TextBox182_Change()
+
+End Sub
+
+Private Sub TextBox183_Change()
+
+End Sub
+
+Private Sub TextBox184_Change()
+
+End Sub
+
+Private Sub TextBox185_Change()
+
+End Sub
+
+Private Sub TextBox186_Change()
+
+End Sub
+
+Private Sub TextBox187_Change()
+
+End Sub
+
+Private Sub TextBox19_Change()
+
+End Sub
+
+Private Sub TextBox2_Change()
+
+End Sub
+
+Private Sub TextBox20_Change()
+
+End Sub
+
+Private Sub TextBox202_Change()
+
+End Sub
+
+Private Sub TextBox203_Change()
+
+End Sub
+
+Private Sub TextBox204_Change()
+
+End Sub
+
+Private Sub TextBox205_Change()
+
+End Sub
+
+Private Sub TextBox206_Change()
+
+End Sub
+
+Private Sub TextBox207_Change()
+
+End Sub
+
+Private Sub TextBox208_Change()
+
+End Sub
+
+Private Sub TextBox209_Change()
+
+End Sub
+
+Private Sub TextBox21_Change()
+
+End Sub
+
+Private Sub TextBox210_Change()
+
+End Sub
+
+Private Sub TextBox211_Change()
+
+End Sub
+
+Private Sub TextBox212_Change()
+
+End Sub
+
+Private Sub TextBox213_Change()
+
+End Sub
+
+Private Sub TextBox214_Change()
+
+End Sub
+
+Private Sub TextBox215_Change()
+
+End Sub
+
+Private Sub TextBox216_Change()
+
+End Sub
+
+Private Sub TextBox217_Change()
+
+End Sub
+
+Private Sub TextBox218_Change()
+
+End Sub
+
+Private Sub TextBox219_Change()
+
+End Sub
+
+Private Sub TextBox22_Change()
+
+End Sub
+
+Private Sub TextBox220_Change()
+
+End Sub
+
+Private Sub TextBox221_Change()
+
+End Sub
+
+Private Sub TextBox23_Change()
+
+End Sub
+
+Private Sub TextBox230_Change()
+
+End Sub
+
+Private Sub TextBox232_Change()
+
+End Sub
+
+Private Sub TextBox233_Change()
+
+End Sub
+
+Private Sub TextBox234_Change()
+
+End Sub
+
+Private Sub TextBox235_Change()
+
+End Sub
+
+Private Sub TextBox236_Change()
+
+End Sub
+
+Private Sub TextBox237_Change()
+
+End Sub
+
+Private Sub TextBox238_Change()
+
+End Sub
+
+Private Sub TextBox239_Change()
+
+End Sub
+
+Private Sub TextBox24_Change()
+
+End Sub
+
+Private Sub TextBox240_Change()
+
+End Sub
+
+Private Sub TextBox241_Change()
+
+End Sub
+
+Private Sub TextBox25_Change()
+
+End Sub
+
+Private Sub TextBox252_Change()
+
+End Sub
+
+Private Sub TextBox253_Change()
+
+End Sub
+
+Private Sub TextBox254_Change()
+
+End Sub
+
+Private Sub TextBox255_Change()
+
+End Sub
+
+Private Sub TextBox256_Change()
+
+End Sub
+
+Private Sub TextBox258_Change()
+
+End Sub
+
+Private Sub TextBox26_Change()
+
+End Sub
+
+Private Sub TextBox261_Change()
+
+End Sub
+
+Private Sub TextBox262_Change()
+
+End Sub
+
+Private Sub TextBox27_Change()
+
+End Sub
+
+Private Sub TextBox28_Change()
+
+End Sub
+
+Private Sub TextBox29_Change()
+
+End Sub
+
+Private Sub TextBox3_Change()
+
+End Sub
+
+Private Sub TextBox30_Change()
+
+End Sub
+
+Private Sub TextBox31_Change()
+
+End Sub
+
+Private Sub TextBox32_Change()
+
+End Sub
+
+Private Sub TextBox33_Change()
+
+End Sub
+
+Private Sub TextBox37_Change()
+
+End Sub
+
+Private Sub TextBox4_Change()
+
+End Sub
+
+Private Sub TextBox8_Change()
+
+End Sub
+
+Private Sub TextBox9_Change()
+
+End Sub
+
+Private Sub UserForm_Click()
+
+End Sub
+
+Private Sub UserForm_Initialize()
+TextBox1.SetFocus
+TextBox2.Text = Date
+ComboBox1.List = Array("Number of Datacenter locations", "Number of Servers (per location)", "number of database servers", "number oftest servers", "LOB apps", "Custom Application", "Web Applications", "Number of none virtualized Servers", "Type of hypervisor (VMware/hyper-v)", "security Regulation", "Banking Regulation", "Business Rules", "SLA's", "Current State Archetecute", "Disaster Recovery Plan", "Application Monitoring", "Application Statistics", "External File Storage", "Application Backups", "Current State Archetecute", "Disaster Recovery Plan", "Application Monitoring", "Application Statistics", "External File Storage", "Application Backups", "Email Addresses/SMTP Server", "Future State Archetecutre")
+ComboBox21.List = Array("Instance Name(s)", "DNS entry", "Shared (Y / N)", "CPU Utilization", "Memory Utilization (in MB)", "Storage Utilization", "Bandwidth Utilization", "Packages / APIs / Plugins / Tools (including versions),if any", "Number of instances")
+ComboBox22.List = Array("Number of instances", "Instance Name(s)", "DNS entry", "Shared (Y / N)", "CPU Utilization", "Memory Utilization (in MB)", "Storage Utilization", "Bandwidth Utilization", "Packages / APIs / Plugins / Tools (including versions),if any", "Load balancer name", "Access protocol", "Access port", "Alternate protocol", "Alternate port", "Downtime permitted (Y / N)", "Downtime period / schedule", "Maximum permitted downtime", "Scalability requirements", "Backup & Archival requirements")
+ComboBox23.List = Array("Instance Name(s)", "DNS entry", "Shared (Y / N)", "CPU Utilization", "Memory Utilization (in MB)", "Storage Utilization", "Bandwidth Utilization", "Packages / APIs / Plugins / Tools (including versions),if any", "Number of instances")
+ComboBox40.List = Array("Number of instances", "Instance Name(s)", "DNS entry", "Shared (Y / N)", "CPU Utilization", "Memory Utilization (in MB)", "Storage Utilization", "Bandwidth Utilization", "Packages / APIs / Plugins / Tools (including versions),if any", "Load balancer name", "Access protocol", "Access port", "Alternate protocol", "Alternate port")
+With ComboBox41
+.AddItem "Business / Sub-Business Area"
+.AddItem "Countries/Regions serviced by Application"
+.AddItem "Application Type"
+.AddItem "Life Expectancy "
+.AddItem "Application Age (year)"
+.AddItem "Business Criticality"
+.AddItem "Application Usage"
+.AddItem "Application Stability"
+.AddItem "Application Size"
+.AddItem "Number of Change Requests in last 12 months"
+.AddItem "Number of Incidents in last 12 months"
+.AddItem "FTE Count - Overall"
+.AddItem "Codebase"
+.AddItem "Dependencies"
+.AddItem "Config"
+.AddItem "Backing services"
+.AddItem "Build, release, run"
+.AddItem "Processes"
+.AddItem "Port binding"
+.AddItem "Concurrency"
+.AddItem "Disposability"
+.AddItem "Logs"
+.AddItem "Admin processes"
+.AddItem "Business Criticality"
+.AddItem "Public Static Site"
+.AddItem "Application Usage"
+.AddItem "Application Usage (% Region wise) "
+.AddItem "Countries/Regions serviced by Application"
+.AddItem " Geographic distribution of Users"
+End With
+
+With ComboBox42
+.AddItem "1"
+.AddItem "2"
+.AddItem "3"
+.AddItem "4"
+.AddItem "5"
+.AddItem "6"
+.AddItem "7"
+.AddItem "8"
+.AddItem "9"
+.AddItem "10"
+.AddItem "11"
+.AddItem "12"
+.AddItem "13"
+.AddItem "14"
+.AddItem "15"
+.AddItem "16"
+.AddItem "17"
+.AddItem "18"
+.AddItem "19"
+.AddItem "20"
+.AddItem "21"
+.AddItem "22"
+.AddItem "23"
+.AddItem "24"
+.AddItem "25"
+.AddItem "26"
+.AddItem "27"
+.AddItem "28"
+.AddItem "29"
+.AddItem "30"
+.AddItem "31"
+.AddItem "32"
+.AddItem "33"
+.AddItem "34"
+.AddItem "35"
+.AddItem "36"
+.AddItem "37"
+.AddItem "38"
+.AddItem "39"
+.AddItem "40"
+.AddItem "41"
+.AddItem "42"
+.AddItem "43"
+.AddItem "44"
+.AddItem "45"
+.AddItem "46"
+.AddItem "47"
+.AddItem "48"
+.AddItem "49"
+.AddItem "50"
+.AddItem "51"
+.AddItem "52"
+.AddItem "53"
+.AddItem "54"
+.AddItem "55"
+.AddItem "56"
+.AddItem "57"
+.AddItem "58"
+.AddItem "59"
+.AddItem "60"
+.AddItem "61"
+.AddItem "62"
+.AddItem "63"
+.AddItem "64"
+.AddItem "65"
+.AddItem "66"
+.AddItem "67"
+.AddItem "68"
+.AddItem "69"
+.AddItem "70"
+.AddItem "71"
+.AddItem "72"
+.AddItem "73"
+.AddItem "74"
+.AddItem "75"
+.AddItem "76"
+.AddItem "77"
+.AddItem "78"
+.AddItem "79"
+.AddItem "80"
+.AddItem "81"
+.AddItem "82"
+.AddItem "83"
+.AddItem "84"
+.AddItem "85"
+.AddItem "86"
+.AddItem "87"
+.AddItem "88"
+.AddItem "89"
+.AddItem "90"
+.AddItem "91"
+.AddItem "92"
+.AddItem "93"
+.AddItem "94"
+.AddItem "95"
+.AddItem "96"
+.AddItem "97"
+.AddItem "98"
+.AddItem "99"
+.AddItem "100"
+.AddItem "101"
+.AddItem "102"
+.AddItem "103"
+.AddItem "104"
+.AddItem "105"
+.AddItem "106"
+.AddItem "107"
+.AddItem "108"
+.AddItem "109"
+.AddItem "110"
+.AddItem "111"
+.AddItem "112"
+.AddItem "113"
+.AddItem "114"
+.AddItem "115"
+.AddItem "116"
+.AddItem "117"
+.AddItem "118"
+.AddItem "119"
+.AddItem "120"
+.AddItem "121"
+.AddItem "122"
+.AddItem "123"
+.AddItem "124"
+.AddItem "125"
+.AddItem "126"
+.AddItem "127"
+.AddItem "128"
+.AddItem "129"
+.AddItem "130"
+.AddItem "131"
+.AddItem "132"
+.AddItem "133"
+.AddItem "134"
+.AddItem "135"
+.AddItem "136"
+.AddItem "137"
+.AddItem "138"
+.AddItem "139"
+.AddItem "140"
+.AddItem "141"
+.AddItem "142"
+.AddItem "143"
+.AddItem "144"
+.AddItem "145"
+.AddItem "146"
+.AddItem "147"
+.AddItem "148"
+.AddItem "149"
+.AddItem "150"
+.AddItem "151"
+.AddItem "152"
+.AddItem "153"
+.AddItem "154"
+.AddItem "155"
+.AddItem "156"
+.AddItem "157"
+.AddItem "158"
+.AddItem "159"
+.AddItem "160"
+.AddItem "161"
+.AddItem "162"
+.AddItem "163"
+.AddItem "164"
+.AddItem "165"
+.AddItem "166"
+.AddItem "167"
+.AddItem "168"
+.AddItem "169"
+.AddItem "170"
+.AddItem "171"
+.AddItem "172"
+.AddItem "173"
+.AddItem "174"
+.AddItem "175"
+.AddItem "176"
+.AddItem "177"
+.AddItem "178"
+.AddItem "179"
+.AddItem "180"
+.AddItem "181"
+.AddItem "182"
+.AddItem "183"
+.AddItem "184"
+.AddItem "185"
+.AddItem "186"
+.AddItem "187"
+.AddItem "188"
+.AddItem "189"
+.AddItem "190"
+.AddItem "191"
+.AddItem "192"
+.AddItem "193"
+.AddItem "194"
+.AddItem "195"
+.AddItem "196"
+.AddItem "197"
+.AddItem "198"
+.AddItem "199"
+.AddItem "200"
+End With
+With ComboBox48
+.AddItem "Business / Sub-Business Area"
+.AddItem "Countries/Regions serviced by Application"
+.AddItem "Application Type"
+.AddItem "Life Expectancy "
+.AddItem "Application Age (year)"
+.AddItem "Business Criticality"
+.AddItem "Application Usage"
+.AddItem "Application Stability"
+.AddItem "Application Size"
+.AddItem "Number of Change Requests in last 12 months"
+.AddItem "Number of Incidents in last 12 months"
+.AddItem "FTE Count - Overall"
+.AddItem "Codebase"
+.AddItem "Dependencies"
+.AddItem "Config"
+.AddItem "Backing services"
+.AddItem "Build, release, run"
+.AddItem "Processes"
+.AddItem "Port binding"
+.AddItem "Concurrency"
+.AddItem "Disposability"
+.AddItem "Logs"
+.AddItem "Admin processes"
+.AddItem "Business Criticality"
+.AddItem "Public Static Site"
+.AddItem "Application Usage"
+.AddItem "Application Usage (% Region wise) "
+.AddItem "Countries/Regions serviced by Application"
+.AddItem " Geographic distribution of Users"
+End With
+
+
+
+
+
+
+With ComboBox49
+.AddItem "1"
+.AddItem "2"
+.AddItem "3"
+.AddItem "4"
+.AddItem "5"
+.AddItem "6"
+.AddItem "7"
+.AddItem "8"
+.AddItem "9"
+.AddItem "10"
+.AddItem "11"
+.AddItem "12"
+.AddItem "13"
+.AddItem "14"
+.AddItem "15"
+.AddItem "16"
+.AddItem "17"
+.AddItem "18"
+.AddItem "19"
+.AddItem "20"
+.AddItem "21"
+.AddItem "22"
+.AddItem "23"
+.AddItem "24"
+.AddItem "25"
+.AddItem "26"
+.AddItem "27"
+.AddItem "28"
+.AddItem "29"
+.AddItem "30"
+.AddItem "31"
+.AddItem "32"
+.AddItem "33"
+.AddItem "34"
+.AddItem "35"
+.AddItem "36"
+.AddItem "37"
+.AddItem "38"
+.AddItem "39"
+.AddItem "40"
+.AddItem "41"
+.AddItem "42"
+.AddItem "43"
+.AddItem "44"
+.AddItem "45"
+.AddItem "46"
+.AddItem "47"
+.AddItem "48"
+.AddItem "49"
+.AddItem "50"
+.AddItem "51"
+.AddItem "52"
+.AddItem "53"
+.AddItem "54"
+.AddItem "55"
+.AddItem "56"
+.AddItem "57"
+.AddItem "58"
+.AddItem "59"
+.AddItem "60"
+.AddItem "61"
+.AddItem "62"
+.AddItem "63"
+.AddItem "64"
+.AddItem "65"
+.AddItem "66"
+.AddItem "67"
+.AddItem "68"
+.AddItem "69"
+.AddItem "70"
+.AddItem "71"
+.AddItem "72"
+.AddItem "73"
+.AddItem "74"
+.AddItem "75"
+.AddItem "76"
+.AddItem "77"
+.AddItem "78"
+.AddItem "79"
+.AddItem "80"
+.AddItem "81"
+.AddItem "82"
+.AddItem "83"
+.AddItem "84"
+.AddItem "85"
+.AddItem "86"
+.AddItem "87"
+.AddItem "88"
+.AddItem "89"
+.AddItem "90"
+.AddItem "91"
+.AddItem "92"
+.AddItem "93"
+.AddItem "94"
+.AddItem "95"
+.AddItem "96"
+.AddItem "97"
+.AddItem "98"
+.AddItem "99"
+.AddItem "100"
+.AddItem "101"
+.AddItem "102"
+.AddItem "103"
+.AddItem "104"
+.AddItem "105"
+.AddItem "106"
+.AddItem "107"
+.AddItem "108"
+.AddItem "109"
+.AddItem "110"
+.AddItem "111"
+.AddItem "112"
+.AddItem "113"
+.AddItem "114"
+.AddItem "115"
+.AddItem "116"
+.AddItem "117"
+.AddItem "118"
+.AddItem "119"
+.AddItem "120"
+.AddItem "121"
+.AddItem "122"
+.AddItem "123"
+.AddItem "124"
+.AddItem "125"
+.AddItem "126"
+.AddItem "127"
+.AddItem "128"
+.AddItem "129"
+.AddItem "130"
+.AddItem "131"
+.AddItem "132"
+.AddItem "133"
+.AddItem "134"
+.AddItem "135"
+.AddItem "136"
+.AddItem "137"
+.AddItem "138"
+.AddItem "139"
+.AddItem "140"
+.AddItem "141"
+.AddItem "142"
+.AddItem "143"
+.AddItem "144"
+.AddItem "145"
+.AddItem "146"
+.AddItem "147"
+.AddItem "148"
+.AddItem "149"
+.AddItem "150"
+.AddItem "151"
+.AddItem "152"
+.AddItem "153"
+.AddItem "154"
+.AddItem "155"
+.AddItem "156"
+.AddItem "157"
+.AddItem "158"
+.AddItem "159"
+.AddItem "160"
+.AddItem "161"
+.AddItem "162"
+.AddItem "163"
+.AddItem "164"
+.AddItem "165"
+.AddItem "166"
+.AddItem "167"
+.AddItem "168"
+.AddItem "169"
+.AddItem "170"
+.AddItem "171"
+.AddItem "172"
+.AddItem "173"
+.AddItem "174"
+.AddItem "175"
+.AddItem "176"
+.AddItem "177"
+.AddItem "178"
+.AddItem "179"
+.AddItem "180"
+.AddItem "181"
+.AddItem "182"
+.AddItem "183"
+.AddItem "184"
+.AddItem "185"
+.AddItem "186"
+.AddItem "187"
+.AddItem "188"
+.AddItem "189"
+.AddItem "190"
+.AddItem "191"
+.AddItem "192"
+.AddItem "193"
+.AddItem "194"
+.AddItem "195"
+.AddItem "196"
+.AddItem "197"
+.AddItem "198"
+.AddItem "199"
+.AddItem "200"
+End With
+
+With ComboBox51
+.AddItem "Business / Sub-Business Area"
+.AddItem "Countries/Regions serviced by Application"
+.AddItem "Application Type"
+.AddItem "Life Expectancy "
+.AddItem "Application Age (year)"
+.AddItem "Business Criticality"
+.AddItem "Application Usage"
+.AddItem "Application Stability"
+.AddItem "Application Size"
+.AddItem "Number of Change Requests in last 12 months"
+.AddItem "Number of Incidents in last 12 months"
+.AddItem "FTE Count - Overall"
+.AddItem "Codebase"
+.AddItem "Dependencies"
+.AddItem "Config"
+.AddItem "Backing services"
+.AddItem "Build, release, run"
+.AddItem "Processes"
+.AddItem "Port binding"
+.AddItem "Concurrency"
+.AddItem "Disposability"
+.AddItem "Logs"
+.AddItem "Admin processes"
+.AddItem "Business Criticality"
+.AddItem "Public Static Site"
+.AddItem "Application Usage"
+.AddItem "Application Usage (% Region wise) "
+.AddItem "Countries/Regions serviced by Application"
+.AddItem " Geographic distribution of Users"
+End With
+
+With ComboBox50
+.AddItem "1"
+.AddItem "2"
+.AddItem "3"
+.AddItem "4"
+.AddItem "5"
+.AddItem "6"
+.AddItem "7"
+.AddItem "8"
+.AddItem "9"
+.AddItem "10"
+.AddItem "11"
+.AddItem "12"
+.AddItem "13"
+.AddItem "14"
+.AddItem "15"
+.AddItem "16"
+.AddItem "17"
+.AddItem "18"
+.AddItem "19"
+.AddItem "20"
+.AddItem "21"
+.AddItem "22"
+.AddItem "23"
+.AddItem "24"
+.AddItem "25"
+.AddItem "26"
+.AddItem "27"
+.AddItem "28"
+.AddItem "29"
+.AddItem "30"
+.AddItem "31"
+.AddItem "32"
+.AddItem "33"
+.AddItem "34"
+.AddItem "35"
+.AddItem "36"
+.AddItem "37"
+.AddItem "38"
+.AddItem "39"
+.AddItem "40"
+.AddItem "41"
+.AddItem "42"
+.AddItem "43"
+.AddItem "44"
+.AddItem "45"
+.AddItem "46"
+.AddItem "47"
+.AddItem "48"
+.AddItem "49"
+.AddItem "50"
+.AddItem "51"
+.AddItem "52"
+.AddItem "53"
+.AddItem "54"
+.AddItem "55"
+.AddItem "56"
+.AddItem "57"
+.AddItem "58"
+.AddItem "59"
+.AddItem "60"
+.AddItem "61"
+.AddItem "62"
+.AddItem "63"
+.AddItem "64"
+.AddItem "65"
+.AddItem "66"
+.AddItem "67"
+.AddItem "68"
+.AddItem "69"
+.AddItem "70"
+.AddItem "71"
+.AddItem "72"
+.AddItem "73"
+.AddItem "74"
+.AddItem "75"
+.AddItem "76"
+.AddItem "77"
+.AddItem "78"
+.AddItem "79"
+.AddItem "80"
+.AddItem "81"
+.AddItem "82"
+.AddItem "83"
+.AddItem "84"
+.AddItem "85"
+.AddItem "86"
+.AddItem "87"
+.AddItem "88"
+.AddItem "89"
+.AddItem "90"
+.AddItem "91"
+.AddItem "92"
+.AddItem "93"
+.AddItem "94"
+.AddItem "95"
+.AddItem "96"
+.AddItem "97"
+.AddItem "98"
+.AddItem "99"
+.AddItem "100"
+.AddItem "101"
+.AddItem "102"
+.AddItem "103"
+.AddItem "104"
+.AddItem "105"
+.AddItem "106"
+.AddItem "107"
+.AddItem "108"
+.AddItem "109"
+.AddItem "110"
+.AddItem "111"
+.AddItem "112"
+.AddItem "113"
+.AddItem "114"
+.AddItem "115"
+.AddItem "116"
+.AddItem "117"
+.AddItem "118"
+.AddItem "119"
+.AddItem "120"
+.AddItem "121"
+.AddItem "122"
+.AddItem "123"
+.AddItem "124"
+.AddItem "125"
+.AddItem "126"
+.AddItem "127"
+.AddItem "128"
+.AddItem "129"
+.AddItem "130"
+.AddItem "131"
+.AddItem "132"
+.AddItem "133"
+.AddItem "134"
+.AddItem "135"
+.AddItem "136"
+.AddItem "137"
+.AddItem "138"
+.AddItem "139"
+.AddItem "140"
+.AddItem "141"
+.AddItem "142"
+.AddItem "143"
+.AddItem "144"
+.AddItem "145"
+.AddItem "146"
+.AddItem "147"
+.AddItem "148"
+.AddItem "149"
+.AddItem "150"
+.AddItem "151"
+.AddItem "152"
+.AddItem "153"
+.AddItem "154"
+.AddItem "155"
+.AddItem "156"
+.AddItem "157"
+.AddItem "158"
+.AddItem "159"
+.AddItem "160"
+.AddItem "161"
+.AddItem "162"
+.AddItem "163"
+.AddItem "164"
+.AddItem "165"
+.AddItem "166"
+.AddItem "167"
+.AddItem "168"
+.AddItem "169"
+.AddItem "170"
+.AddItem "171"
+.AddItem "172"
+.AddItem "173"
+.AddItem "174"
+.AddItem "175"
+.AddItem "176"
+.AddItem "177"
+.AddItem "178"
+.AddItem "179"
+.AddItem "180"
+.AddItem "181"
+.AddItem "182"
+.AddItem "183"
+.AddItem "184"
+.AddItem "185"
+.AddItem "186"
+.AddItem "187"
+.AddItem "188"
+.AddItem "189"
+.AddItem "190"
+.AddItem "191"
+.AddItem "192"
+.AddItem "193"
+.AddItem "194"
+.AddItem "195"
+.AddItem "196"
+.AddItem "197"
+.AddItem "198"
+.AddItem "199"
+.AddItem "200"
+End With
+
+With ComboBox44
+.AddItem "Application Vision"
+.AddItem "How do you envision PaaS supporting this initiative?"
+.AddItem "What is your vision for Promotion Planning area?"
+.AddItem "Which is currently on separate infrastructure (oracle / Teradata)?"
+.AddItem " What is the future on this look like?"
+.AddItem "Are you looking to move Development environments on cloud including adoption on VS on cloud / TFS on cloud to enhance developer productivity (offshore)?"
+.AddItem "Questions on DR environment? –"
+.AddItem "What are primary drivers of your DR environment?"
+.AddItem "Any other relevant questions… prod environment that can be purposed as DR etc."
+.AddItem "Data and Visualization Vision"
+.AddItem "Do you have any plans in moving towards big data platforms like Azure Hadoop etc. to host big data i.e. POS Scan data? What kind of analytics platforms you are envisioning to support AGDC sales strategy?"
+.AddItem "What is your vision on Data Warehouse environment (Teradata) supporting sales? What are your plans in creating Data Lakes and supporting them for building sales app infrastructure (analytics/reporting)?"
+.AddItem "Reporting Rationalization & Consolidation – In current context there are multiple reporting environments (Batch, EDGE Reporting, CATMAN etc.), from BI standpoint what is the vision for this area?"
+.AddItem "We understand to power analytics you will get data from syndicates etc. Do you see any real time integration requirements arising out of this scenario?"
+.AddItem "Marketing Vision"
+.AddItem "Understanding that brand sites are owned and operated by LBD, could you layout what your strategy is for existing branding sites (with LBD)"
+.AddItem "Greensmoke branding sites – is differently hosted? Can you explain current state and vision?"
+.AddItem "Online e-Commerce for GreenSmoke?"
+.AddItem "NuMark innovation operating Unit – new innovations on the cloud, ripe for agility"
+.AddItem "Axciom Customer Database and age verification"
+.AddItem "Offer management and retailer integrations"
+.AddItem "Architecture"
+.AddItem "Can you provide a brief explanation of your application landscape?"
+.AddItem "What are your top points of concerns?"
+.AddItem "What are your top strengths in your architecture?"
+.AddItem "Is there a need for many real time integrations in the architecture?"
+.AddItem "Do you have internal and external audiences for your applications?"
+.AddItem "Can you explain the nature of the dependencies in your applications and the integrations? Also any real time integrations?"
+.AddItem "What mode of Authentication is typically used in applications (SSO, AD, OAuth, OpenID, LocalDb, others)"
+.AddItem "What are the user groups your applications typically address? (External/Internal, etc.)"
+.AddItem "Biggest areas of Compliance that are concerns?"
+.AddItem "Any concerns of the longevity of the technology used for the applications?"
+.AddItem "Is product licensing a major cost are for your applications?"
+.AddItem "Technology"
+.AddItem "What are the main software technology patterns you use in your landscape?"
+.AddItem "COTS vs Custom Applications in the application landscape?"
+.AddItem "Complexity of applications, (lines of code) and how well they are documented?"
+.AddItem "Infrastructure"
+.AddItem "Can you briefly describe your infrastructure requirements?"
+.AddItem "VM, OS, Storage, Databases, Security"
+.AddItem "Size of your environments, # of servers"
+.AddItem "What are the DR plans for the applications?"
+.AddItem "Agility/ DevOps"
+.AddItem "What SDLC methodology do you typically follow?"
+.AddItem "Do you see any large re-writes of applications in the next two to four years?"
+.AddItem "What are your typical release cycles and frequency of releases?"
+.AddItem "What is your release process?"
+.AddItem "Cloud Preparedness"
+.AddItem "Have you already been researching and working on Azure based"
+.AddItem "Are there SaaS offerings being used in your architecture currently. Are you considering any additional SaaS providers in the future?"
+.AddItem "Service Management"
+.AddItem "What are your biggest Service Management concerns?"
+.AddItem "Application Stability – Do you consider the applications to be stable? What are the ticket volumes for the applications?"
+.AddItem "Availability/Provisioning"
+.AddItem "How quickly can you have new environments provisioned?"
+.AddItem "Find a budget by understanding Cost/maintenance/Issues/Inventory cost/"
+.AddItem "Find Authority who's name is on each report on Cost/maintenance/Issues/Inventory cost/"
+.AddItem "Find Need What are the issues you're having and how are you tracking them"
+.AddItem "How many custom application are  in your department"
+.AddItem "How many Legacy application are in your department"
+.AddItem "Any Shadow IT?"
+.AddItem "What are the regulations your department worries about?"
+.AddItem "What are the business roles that have been implemented in your department?"
+.AddItem "What problem are you censured with in regards to technology Inefficiencies (issues)?"
+.AddItem "What are problems you're having with operational effectiveness?"
+.AddItem "How do you check for Data Inaccuracies?"
+.AddItem "What Systems and Applications are end of life? (Windows 2003)"
+.AddItem "How do you train on accounting/ budgets and Reporting?"
+.AddItem "Do you have a Road map for training employees in your department?"
+.AddItem "Do you have a learning platform to retrain employees?"
+.AddItem "Do you want to include customers other than metropolitan customers in your new system."
+.AddItem "Once we have decided on how big the effort is, do we want to automate some or part of manual reconciliation process."
+.AddItem "Some of the applications are hosted at the Vendor Data Centers, how do we manage the data security? Do we have anything in place for that?"
+End With
+
+With ComboBox45
+.AddItem "Application Architecture (x86 compatible)"
+.AddItem "Data Residency"
+.AddItem "Application Architecture"
+.AddItem "Programming Language"
+.AddItem "Virtualization"
+.AddItem "Need for a Physical Server"
+.AddItem "Application Server"
+.AddItem "Database Server"
+.AddItem "License Portability"
+.AddItem "Availability"
+.AddItem "High Availability"
+.AddItem "File Size/Frequency"
+.AddItem "Traffic Pattern"
+.AddItem "DR Classification"
+.AddItem "Integrations"
+.AddItem "Integrations (Others)"
+.AddItem "Latency"
+.AddItem "Performance"
+.AddItem "Bandwidth"
+.AddItem "Data Residency"
+.AddItem "Application Architecture"
+.AddItem "AWS Specifc Application Services Requirement "
+.AddItem "Virtualization"
+.AddItem "Need for a Physical Server"
+.AddItem "Operating System "
+.AddItem "Operating System Details"
+.AddItem "Technology Stack"
+.AddItem "Application Server"
+.AddItem "Database Server"
+.AddItem "License Portability"
+.AddItem "Availability"
+.AddItem "High Availability"
+.AddItem "Traffic Pattern"
+.AddItem "DR Classification"
+.AddItem "Integrations"
+.AddItem "Integrations (Apigee)"
+.AddItem "Integrations (Others)"
+.AddItem "Latency"
+.AddItem "Outbound Data Volume"
+.AddItem "Stateless Processes"
+.AddItem "Disposability"
+.AddItem "Infrastructure Coupling"
+End With
+
+With ComboBox43
+.AddItem "Workload #1: High Performance Computing (HPC)"
+.AddItem "Workload #2: Big Data / Analytics"
+.AddItem "Workload #3: Social Business"
+.AddItem "Workload #5: Development & Testing Operations (DevOps, TestOps)"
+.AddItem "Workload #6 Storage ( D/R"
+.AddItem "Workload #7 VPC (Hybrid Cloud)"
+.AddItem "Workload #8 web apps, Microservices or api's"
+.AddItem "Workload #9 Machine Learning"
+.AddItem "Workload #10 Business Intelligences"
+End With
+
+
+Dim s As String
+On Error GoTo ErrExit
+s = Me.RefEdit1.Value
+MsgBox Range(s).Value
+ErrExit:
+myRefEditValue = Me.RefEdit1.Value
+End Sub
+
+Private Sub WriteButton_Click()
+Call writedata
+
+End Sub
