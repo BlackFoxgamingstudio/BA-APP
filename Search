@@ -1,0 +1,49 @@
+Sub XMLHTTP()
+
+    Dim url As String, lastRow As Long
+    Dim XMLHTTP As Object, html As Object, objResultDiv As Object, objH3 As Object, link As Object
+    Dim start_time As Date
+    Dim end_time As Date
+
+    lastRow = Range("A" & Rows.Count).End(xlUp).Row
+    
+    Dim cookie As String
+    Dim result_cookie As String
+    
+    start_time = Time
+    Debug.Print "start_time:" & start_time
+
+    For i = 2 To lastRow
+
+        url = "https://www.google.co.in/search?q=" & Cells(i, 1) & "&rnd=" & WorksheetFunction.RandBetween(1, 10000)
+
+        Set XMLHTTP = CreateObject("MSXML2.serverXMLHTTP")
+        XMLHTTP.Open "GET", url, False
+        XMLHTTP.setRequestHeader "Content-Type", "text/xml"
+        XMLHTTP.setRequestHeader "User-Agent", "Mozilla/5.0 (Windows NT 6.1; rv:25.0) Gecko/20100101 Firefox/25.0"
+        XMLHTTP.Send
+
+            Set html = CreateObject("htmlfile")
+        html.Body.innerHTML = XMLHTTP.ResponseText
+        Set objResultDiv = html.getelementbyid("rso")
+        Set objH3 = objResultDiv.getelementsbytagname("H3")(0)
+        Set link = objH3.getelementsbytagname("a")(0)
+
+
+        str_text = Replace(link.innerHTML, "<EM>", "")
+        str_text = Replace(str_text, "</EM>", "")
+
+        Cells(i, 2) = str_text
+        Cells(i, 3) = link.href
+        DoEvents
+    Next
+    
+    end_time = Time
+    Debug.Print "end_time:" & end_time
+    
+    Debug.Print "done" & "Time taken : " & DateDiff("n", start_time, end_time)
+    MsgBox "done" & "Time taken : " & DateDiff("n", start_time, end_time)
+End Sub
+
+
+
