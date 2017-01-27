@@ -1,0 +1,55 @@
+Dim ppapp As PowerPoint.Application
+Dim pppres As PowerPoint.Presentation
+
+Sub getshapedata()
+On Error GoTo line1
+Set ppapp = GetObject(, "Powerpoint.application")
+Set pppres = ppapp.ActivePresentation
+
+Dim shapeslide
+Dim shapename
+Dim shapetext
+Dim nextrow
+
+shapeslide = ppapp.ActiveWindow.View.Slide.SlideIndex
+shapename = ppapp.ActiveWindow.Selection.ShapeRange(1).Name
+shapetext = pppres.Slides(shapeslide).Shapes(shapename).TextEffect.Text
+friendlyname = InputBox("Insert Friendly Name for " & shapetext, "Friendly Name", "")
+
+nextrow = Sheet15.Range("a" & Rows.Count).End(xlUp).Row + 1
+
+Sheet15.Range("a" & nextrow) = shapeslide
+Sheet15.Range("b" & nextrow) = shapename
+Sheet15.Range("c" & nextrow) = shapetext
+Sheet15.Range("d" & nextrow) = friendlyname
+
+Exit Sub
+
+
+
+line1:
+MsgBox "No item selected"
+
+End Sub
+
+Sub writedata()
+Dim c As Object
+Dim shapeslide
+Dim shapename
+Dim shapetext
+
+Set ppapp = GetObject(, "Powerpoint.application")
+Set pppres = ppapp.ActivePresentation
+
+For Each c In Sheet15.Range("a2:a" & Sheet15.Range("a" & Rows.Count).End(xlUp).Row)
+
+shapeslide = Sheet15.Range("a" & c.Row)
+shapename = Sheet15.Range("b" & c.Row)
+shapetext = Sheet15.Range("c" & c.Row).Text
+friendlyname = Sheet15.Range("d" & c.Row)
+pppres.Slides(shapeslide).Shapes(shapename).TextEffect.Text = shapetext
+
+Next c
+
+End Sub
+
